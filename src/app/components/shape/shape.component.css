@@ -1,0 +1,48 @@
+div{
+    width: 100%;
+    height: 100vw;
+    padding: 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+    h1{
+        color: white;
+    }
+
+    ul{
+        width: 450px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    form{
+        margin: 32px;
+    }
+
+    input{
+        width: 440px;
+        height: 40px;
+        margin: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: none;
+    }
+
+    button{
+        background-color: orange;
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+    }
+
+    canvas {
+        background-color: white;
+        border-radius: 10px;
+        width: 440px;
+        height: auto;
+        
+    }

@@ -1,0 +1,25 @@
+<div>
+  <h1>"Generate shapes with natural language"</h1>
+
+  <p>Here are some examples to type:</p>
+
+  <ul>
+    <li>Draw a circle with a radius of 100 </li>
+    <li>Draw a square with a side length of 200</li>
+    <li>Draw a rectangle with a width of 250 and a height of 400</li>
+    <li>Draw an octagon with a side length of 200</li>
+    <li>Draw an isosceles triangle with a height of 200 and a width of 100</li>
+  </ul>
+
+  <form [formGroup]="form">
+
+    <input type="input" class="form-input" formControlName="userText" placeholder="follow the above examples" />
+    <br>
+
+    <button type="submit" [disabled]="form.invalid" (click)="sendUserInput()">Send input and Draw</button>
+  </form>
+
+
+  <br>
+  <canvas #canvas></canvas>
+</div>
